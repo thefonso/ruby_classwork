@@ -20,6 +20,12 @@ class Numbers
 
 end
 
+"9 2".split #=> ["9","2"]
+
+myArray = ["one","two","three"]
+
+davis = myArray[0] #=> "one"
+
 
 puts "enter first number"
 first_number = gets.chomp.to_i
